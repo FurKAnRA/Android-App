@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1093528165256",
+    "firebase_url": "https://trip-data-cfc5e-default-rtdb.firebaseio.com",
+    "project_id": "trip-data-cfc5e",
+    "storage_bucket": "trip-data-cfc5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093528165256:android:f5d358dd58c187a7a2783d",
+        "android_client_info": {
+          "package_name": "com.example.yazlab2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093528165256-eeg2bpf1eiiremk0ig1ahga2f7a363rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNCectwJhEhtnZ2cJDJlPuJ5XsX-CF3oc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093528165256-eeg2bpf1eiiremk0ig1ahga2f7a363rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

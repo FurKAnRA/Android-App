@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/lokasyonEdit"
+        android:layout_width="333dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="56dp"
+        android:hint="Lokasyon"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toTopOf="@+id/baslangicEdit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/baslangicEdit"
+        android:layout_width="341dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="34dp"
+        android:hint="Baslangic Tarihi"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toTopOf="@+id/bitisEdit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lokasyonEdit"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/bitisEdit"
+        android:layout_width="344dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="45dp"
+        android:hint="Bitis Tarihi"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toTopOf="@+id/hesaplaButton"
+        app:layout_constraintEnd_toEndOf="@+id/hesaplaButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Sorgu2TextView"
+        app:layout_constraintTop_toBottomOf="@+id/baslangicEdit"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/hesaplaButton"
+        android:layout_width="331dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="14dp"
+        android:text="Ara"
+        app:layout_constraintBottom_toTopOf="@+id/Sorgu2TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bitisEdit"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Sorgu2TextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="79dp"
+        android:background="#009688"
+        android:textColor="#FFDD00"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hesaplaButton"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
